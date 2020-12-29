@@ -1,0 +1,122 @@
+﻿charset"utf-8";
+/* CSS by Vuong and supported by @dung, @chiptran Copyright July 2017 */
+/*thánh css: https://css-tricks.com/examples/ShapesOfCSS/*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*{
+ margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+html{
+background: transparent;  
+/* border: 1px solid grey;   */
+
+}
+
+body{
+/*width: 1000px;*/
+margin: auto;/*nội dung hiện ra giữa khi đặt margin = auto*/
+background: #d3d3d3;
+font-family: 'Open Sans', 'sans-serif';
+}
+
+#heading {
+width: auto;
+margin-top: 2px;
+height: 50px;
+line-height: 50px;
+font-family: Helvetica, Arial;
+/*border: 1px solid grey;*/
+/* text-align: center; */
+font-weight: bold;
+color: green;
+font-size: 15px;
+padding-left: 25%;
+background-color: #fff;  
+
+    
+}
+
+#nav{
+height: 27px;
+line-height: 27px;
+background-color: #e5d0ff!important;
+font-family: Helvetica, Arial;
+/*border: 1px solid grey;*/
+  
+}
+
+
+#wrapper{
+width: 990px;
+border: 1px solid grey;
+margin: auto;
+background-color: white;
+/* padding: 5px; */
+ /*border-radius: 2px; */
+  
+}
+
+
+#content {
+padding: 5px;
+width: 980px;
+margin: auto;
+border-radius: 2px;
+background-color: white;
+border: 0.5px solid grey;
+  
+}
+
+td {
+font-family: Helvetica, Arial;
+font-size:13px;
+text-align: center;
+border: 1px solid green;
+}
+
+.title {
+background-color: green;
+/*font-weight: bold;*/
+color: white;
+}
+
+a{
+color: green;
+text-decoration: none;
+font-weight: bold;
+
+}
+
+a:hover {
+color:deeppink;
+
+}
+
+
+#thutu
+{
+border: 1px solid grey;
+font-family: Helvetica, tahoma;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+width: 34px;
+height: 34px;
+line-height: 34px;
+text-align: center;
+font-size: 17px;
+/*font-weight: bold;*/
+margin-right: 5px;
+/*margin-bottom: 5px;*/
+margin-left: 2px;
+background-color: #bbb;
+color: white;
+/*float: right;*/
+
+display: inline-block;
+/*position: absolute;*/
+}
+

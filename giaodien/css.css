@@ -1,0 +1,711 @@
+﻿charset"utf-8";
+/* CSS by Vuong and supported by @dung, @chiptran Copyright July 2017 */
+/*thánh css: https://css-tricks.com/examples/ShapesOfCSS/*/
+
+
+
+*{
+ margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+html{
+background: transparent;  
+/* border: 1px solid grey;   */
+
+}
+
+body{
+/* width: 1000px; */
+/* border: 10px solid red; */
+margin: auto;/*nội dung hiện ra giữa khi đặt margin = auto*/
+background: #E8E8E8;
+font-family: 'Playfair Display', serif;
+margin-top: 0px;
+}
+
+a {
+text-decoration: none;
+}
+
+#heading {
+width: auto;
+height: 90px;
+line-height: 90px;
+font-family: 'Playfair Display', serif;
+/*border: 1px solid grey;*/
+ text-align: center; 
+font-weight: bold;
+color: #000;
+font-size: 30px;
+padding-left: 25%;
+background-color: #fff;  
+  
+}
+
+#menu {
+
+	/*border: 1px solid red;*/
+	padding: 0px;
+	padding:0px;
+margin:0px;
+position: none;
+    top: 0px;
+ left: 0px;
+    right: 0px;
+margin-bottom: 10px;
+}
+
+#menu ul {
+background: #7a0000;
+/*#e5d0ff; tím
+#5c2a9a; tím
+*/
+
+/*#7a0000; đỏ đậm*/
+padding:0px;
+margin:0px;
+list-style-type: none;
+text-align: center;
+margin-bottom: 2px;
+
+
+
+}
+#menu li {
+  color: #fff;
+  font-size: 15px;
+  display: inline;
+   height: 35px;
+  line-height: 35px;
+
+   
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  width: 130px;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #000;
+}
+
+
+
+
+
+
+#wrapper{
+width: 890px;
+/*border: 1px solid grey;*/
+
+margin: auto;
+margin-top: 5px;
+background-color: white;
+/* padding: 5px; */
+ /*border-radius: 2px; */
+  
+}
+
+
+
+#content {
+padding: 10px;
+width: 670px;
+float: left;
+border-radius: 2px;
+background-color: white;
+border: 0.5px dotted grey;
+border-top: none;
+  
+}
+
+#rightcol{
+width: 183px;
+height: auto;
+padding-left: 30px;
+float: left;
+/*border: 1px dotted grey;*/
+margin-left: 685px;
+position: fixed;
+top: 60px;
+
+/*top: 0px;*/
+font-weight: bold;
+background-color: transparent;
+font-family: Helvetica, Arial;
+}
+
+#score {
+border: 1px solid #e5d0ff;
+font-family: 'Playfair Display', serif;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+width: 25px;
+height: 25px;
+line-height: 25px;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+/*margin-right: 0px;*/
+}
+
+
+
+#bottom {
+clear: both;
+width: 680px;
+height: 40px;
+line-height: 40px;
+border-radius: 2px;
+background-color: #fff;
+font-family: Helvetica, Arial;
+  
+}
+
+
+.incorrectanwser {
+    color: white;
+    background-color: #bbb !important;
+  
+}
+
+
+.correctanwser {
+    color: white;
+    border: 1px solid #bf8bff!important;
+    background-color: #bf8bff!important;
+  /*font-weight: bold;*/
+  
+}
+
+
+.cauhoi {
+  
+  border: 1px solid #bbb;
+  height: auto;
+   color: black;
+   margin: 5px;
+   padding: 10px;
+   background-color: #f9f0de;
+   border-radius: 2px;
+  
+  
+}
+
+
+.question{
+    /*font-family: 'Eczar', Helvetica, Arial;*/
+    font-family: 'Playfair Display', serif;
+    
+    /*border: 1px solid #000;*/
+    background-color: #fff;
+    padding: 5px;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+    font-weight: bold;
+   
+    
+}
+
+
+.codenhung{
+    /*font-family: 'Eczar', Helvetica, Arial;*/
+    font-family: 'Playfair Display', serif;
+    
+    /*border: 1px solid #000;*/
+    
+    
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+   
+    
+}
+
+
+.khung{
+    /*border: 1px solid #000;*/
+    /*background-color: #b3ecec;*/
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+   
+    
+}
+
+
+.dapan {
+  
+  /*border: 1px solid #b3ecec;*/
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  height: auto;
+  font-size: 17px;
+  line-height: 35px; 
+  color: black;
+  background-color: #e5d0ff;
+  border-radius: 3px;
+font-family: 'Droid Serif', serif;
+  /*font-family: Helvetica, Arial;*/
+  display: none;
+  
+}
+
+
+.khungtraloi {
+  
+  /*border: 1px solid #000;*/
+  /*93afb0/b3ecec*/
+  width: 320px;
+  padding: 2px 2px 2px 0px;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: black;
+  /*background-color: #b3ecec;*/
+  font-family: 'Droid Serif', serif;
+  /*font-family: 'Playfair Display', serif;*/
+  font-size: 17px;
+  border-radius: 3px;
+  display: inline-block;
+    
+}
+
+
+.traloia, .traloib, .traloic, .traloid {
+  
+border: 1px solid grey;
+font-family: 'Playfair Display', serif;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+width: 34px;
+height: 34px;
+line-height: 34px;
+text-align: center;
+background-color: transparent;
+font-size: 17px;
+font-weight: bold;
+margin-right: 5px;
+margin-bottom: 7px;
+margin-left: 5px;
+font-weight: bold;
+
+}
+
+#thutu
+{
+border: 1px solid grey;
+font-family: 'Playfair Display', serif;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+width: 34px;
+height: 34px;
+line-height: 34px;
+text-align: center;
+font-size: 17px;
+/*font-weight: bold;*/
+margin-right: 5px;
+/*margin-bottom: 5px;*/
+margin-left: 2px;
+background-color: #bbb;
+color: white;
+/*float: right;*/
+
+display: inline-block;
+/*position: absolute;*/
+}
+
+
+
+.score2 {
+/*border: 1px solid grey;*/
+font-family: 'Playfair Display', serif;
+/*-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+*/
+width: 33px;
+height: 33px;
+line-height: 33px;
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+/*margin: 5px;*/
+/*margin-right: 0px;*/
+}
+
+
+#metascore {
+margin: 5px;
+margin-left: 15px;
+
+}
+
+
+#copyright {
+
+font-size: 18px;
+font-family: 'Playfair Display', serif;
+margin-bottom: 10px;
+}
+
+
+#facebook{
+display:none;
+
+}
+
+/*responsive - iphone 5 */
+
+@media screen and (max-width: 320px) 
+{
+    #heading {
+        height: auto;
+        width: 320px;
+		/* text-align: center; */
+		font-weight: bold;
+		color: white;
+		font-size: 15px;
+		text-align: center;
+		background-color: #d62d20; 
+		font-family: 'Playfair Display', serif; 
+    }
+
+
+	#menu {
+
+	/*border: 1px solid red;*/
+	padding: 0px;
+	padding:0px;
+	margin:0px;
+	position: none;
+}
+    
+    #rightcol {
+	    /*width: 180px;*/
+		height: auto;
+		margin-left: 280px;
+		/*border: 1px solid grey;*/
+		position: fixed;
+		font-weight: bold;
+		background-color: transparent;
+		font-family: Helvetica, Arial;
+    }
+
+    #bottom {
+    	width: 320px;
+    	height: auto;
+    }
+	#wrapper{
+	width: 318px;
+	background-color: white;
+	}
+
+	#subnav{
+	height: 27px;
+	line-height: 27px;
+	padding-left: 10px;
+	background-color: #fff4e6;
+	width: 320px;
+	color: black;
+	  
+	}
+  
+	
+	#content {
+	padding-top: 5px;
+	width: 318px;
+	float: left;
+	border-radius: 2px;
+	background-color: white;
+
+	}
+
+	.khung{
+    /*border: 1.2px solid #efdbb8;*/
+    /*background-color: #b3ecec;*/
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 5px;
+    width: 319px;
+
+     
+    
+}
+	
+
+	.question{
+    /*border: 1px solid #b3ecec;*/
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 2px;
+  height: auto;
+  font-size: 17px;
+  line-height: 35px; 
+  color: black;
+  /*background-color: #e5d0ff;*/
+  border-radius: 3px;
+  font-family: 'Droid Serif', serif;
+  
+	
+	}
+   
+	.khungtraloi {
+  
+  /*border: 1px solid #b3ecec;*/
+  width: 310px;
+  padding: 2px 2px 2px 0px;
+  margin-left: 2px;
+  margin-top: 2px;
+  color: black;
+  /*background-color: #b3ecec;*/
+  font-family: 'Droid Serif', serif;
+  font-size: 17px;
+  border-radius: 3px;
+  /*display: inline-block;*/
+    
+}
+
+
+#facebook{
+display:block;
+
+}
+ 
+
+}
+
+/*iphone 6*/
+@media screen and (max-width: 375px) 
+{
+    #heading {
+        height: auto;
+        width: auto;
+		/* text-align: center; */
+		font-weight: bold;
+		color: white;
+		font-size: 15px;
+		padding-left: 25%;
+		font-family: 'Playfair Display', serif;
+		background-color: #854442;  
+    }
+
+		#menu {
+
+	/*border: 1px solid red;*/
+	padding: 0px;
+	padding:0px;
+margin:0px;
+position: none;
+}
+
+
+    h1 {
+        font-size: 24px;
+    }
+    #rightcol {
+        display: none;
+    }
+
+    #bottom {
+    	width: 325px;
+    	height: auto;
+    }
+	#wrapper{
+	width: 320px;
+	border: 2px solid grey;
+	margin: 1px auto;
+	background-color: white;
+	}
+/* padding: 5px; */
+/* border-radius: 2px; */
+	#subnav{
+	height: 27px;
+	line-height: 27px;
+	padding-left: 10px;
+	background-color: #fff4e6;
+	width: 320px;
+	border-bottom-left-radius: 5px;
+	margin: 1px auto;
+	color: black;
+	 
+	}
+  
+	
+	#content {
+	padding: 10px;
+	width: 320px;
+	float: left;
+	border-radius: 2px;
+	background-color: white;
+	border: 1px dotted #ddd;
+	}
+
+	.question{
+    font-family: 'Playfair Display', serif;
+
+    /*border: 1px solid #93afb0;*/
+    /*background-color: #efdbb8;*/
+    width: 315px;
+    padding: 4px;
+    font-size: 15px;
+    margin-top: 4px;
+    margin-left: 5px;
+    border-radius: 2px;
+	
+	
+	}
+
+	.khungtraloi {
+  
+  /*border: 1px solid #b3ecec;*/
+  width: 315px;
+  padding: 2px 2px 2px 0px;
+  margin-left: 2px;
+  margin-top: 5px;
+  color: black;
+  /*background-color: #b3ecec;*/
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  border-radius: 3px;
+  /*display: inline-block;*/
+    
+	}
+
+#facebook{
+display:block;
+
+}
+  
+
+}
+
+
+/*iphone 6s, 7*/
+@media screen and (max-width: 414px) 
+{
+    #heading {
+        height: auto;
+        width: auto;
+		/* text-align: center; */
+		font-weight: bold;
+		color: white;
+		font-size: 15px;
+		padding-left: 25%;
+		background-color: #854442;  
+		font-family: 'Playfair Display', serif;
+    }
+
+		#menu {
+
+	/*border: 1px solid red;*/
+	padding: 0px;
+	padding:0px;
+	margin:0px;
+	position: none;
+}
+
+
+
+    h1 {
+        font-size: 24px;
+    }
+    #rightcol {
+        display: none;
+    }
+
+    #bottom {
+    	width: 325px;
+    	height: auto;
+    }
+	#wrapper{
+	width: 320px;
+	border: 2px solid grey;
+	margin: 1px auto;
+	background-color: white;}
+/* padding: 5px; */
+/* border-radius: 2px; */
+	#subnav{
+	height: 27px;
+	line-height: 27px;
+	padding-left: 10px;
+	background-color: #fff4e6;
+	width: 320px;
+	border-bottom-left-radius: 5px;
+	margin: 1px auto;
+	color: black;
+	  
+	}
+  
+	
+	#content {
+	padding: 10px;
+	width: 320px;
+	float: left;
+	border-radius: 2px;
+	background-color: white;
+	/*border: 1px dotted #ddd;*/
+	}
+
+	.question{
+    font-family: 'Playfair Display', serif;
+    /*border: 1px solid #93afb0;*/
+    /*background-color: #efdbb8;*/
+    width: 315px;
+    padding: 4px;
+    font-size: 15px;
+    margin-top: 4px;
+    margin-left: 2px;
+    margin-right: : 2px;
+    border-radius: 2px;
+	
+	
+	}
+
+	.khungtraloi {
+  
+  /*border: 1px solid #b3ecec;*/
+  width: 315px;
+  padding: 2px 2px 2px 0px;
+  margin-left: 2px;
+  margin-top: 5px;
+  color: black;
+  /*background-color: #b3ecec;*/
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  border-radius: 3px;
+  /*display: inline-block;*/
+    
+	}
+
+#facebook{
+display:block;
+
+}
+  
+
+}
+
+
+                    
+
+
+

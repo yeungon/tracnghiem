@@ -1,0 +1,43 @@
+#bật htacess
+RewriteEngine On
+
+# thiết lập cho htacess, ví dụ ! : không, thiết lập cho file css, js
+RewriteCond %{REQUEST_URI} !(css|js)$
+
+RewriteBase /
+#thiết lập luật chuyển tiếp cho htacess
+RewriteRule ^$ /index.php [L]
+RewriteRule ^about$ /about.php [L]
+RewriteRule ^chuyende$ /chuyende.php [L]
+RewriteRule ^chude-([^/]*).html$ /chude.php?cid=$1 [L]
+#RewriteRule ^chude/[^/]*)$ /chude.php?cid=$1 [L]
+
+# luật dưới xác định chữ a-z cả chữ viết hoa A-Z, dấu _ và dấu -, dấu + tức mở rộng thành phần, kết thúc bằng $
+RewriteRule ^[a-zA-Z-_]+-([^/]*).html$ /chude.php?cid=$1 [L]
+RewriteRule ^listchuyende/([^/]*).html$ /listchuyende.php?cid=$1 [L]
+RewriteRule ^[a-zA-Z-0-9-_]+/([^/]*).html$ /listchuyende.php?cid=$1 [L]
+
+
+
+RewriteRule ^page([^/]*)$ /index.php?page=$1 [L]
+RewriteRule ^chude/([^/]*)/page/([^/]*)$ /chude.php?cid=$1&page=$2 [L]
+RewriteRule ^chude([^/]*)/page([^/]*)$ /chude.php?cid=$1&page=$2 [L]
+RewriteRule ^[a-zA-Z-0-9-_]+-([^/]*)/page([^/]*)$ /chude.php?cid=$1&page=$2 [L]
+RewriteRule ^chitietchude/([^/]*)$ /chitietchude.php?cid=$1 [L]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
