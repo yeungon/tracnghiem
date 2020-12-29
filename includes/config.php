@@ -1,11 +1,11 @@
 <?php
   // 1. Create a database connection
-  // $dbhost = "163.172.12.139";
+  /
   $dbhost = "localhost";
 
-  $dbuser = "admin_vuong";
-  $dbpass = "UAPzVhgcX7";
-  $dbname = "admin_codict";
+  $dbuser = "PRIVATE";
+  $dbpass = "PRIVATE";
+  $dbname = "PRIVATE";
   $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
   // set the text echoed for Vietnamese coding.
   mysqli_set_charset($connection, "utf8");
